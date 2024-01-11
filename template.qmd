@@ -39,14 +39,9 @@ library(easystats)
 ```
 
 # Data
-```{r}
-# data <- read.csv("data-raw/data.csv")
-```
 
-# Fonts
-```{r}
-# font_add_google("Roboto", "roboto")
-# showtext_auto()
-```
+# Analysis
+
+# Graphics
 
 
