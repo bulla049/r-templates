@@ -10,7 +10,7 @@ author:
     address: 56 E River Rd
     city: Minneapolis
     state: MN
-date: "Today's Date"
+date: last-modified
 abstract: |
   This is the abstract.
 
@@ -21,12 +21,13 @@ execute:
   messages: false
   error: false
   warning: false
+css: styles.css
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-![logo.png]
+
 # Libraries
 
 ```{r}
