@@ -15,11 +15,12 @@ abstract: |
   This is the abstract.
 
   It consists of two paragraphs.
-output:
-  bookdown::html_document2:
-    toc: true
-    fig_caption: true
-    template: flatly
+execute:
+  eval: true
+  echo: true
+  messages: false
+  error: false
+  warning: false
 ---
 
 ```{r setup, include=FALSE}
