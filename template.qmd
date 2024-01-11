@@ -26,8 +26,9 @@ execute:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
+![logo.png]
 # Libraries
+
 ```{r}
 library(tidyverse)
 library(readxl)
