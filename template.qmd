@@ -10,23 +10,20 @@ author:
     address: 56 E River Rd
     city: Minneapolis
     state: MN
-date: "Today's Date"
-abstract: |
-  This is the abstract.
-
-  It consists of two paragraphs.
+date: last-modified
 execute:
   eval: true
   echo: true
   messages: false
   error: false
   warning: false
+css: styles.css
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-![logo.png]
+
 # Libraries
 
 ```{r}
