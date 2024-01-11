@@ -1,0 +1,52 @@
+---
+title: "Template Title"
+author:
+  name: Samuel J. Bullard
+  orcid: 0000-0003-4905-9305
+  email: bulla049@umn.edu
+  affiliation:
+    name: University of Minnesota
+    department: Department of Educational Psychology
+    address: 56 E River Rd
+    city: Minneapolis
+    state: MN
+date: "Today's Date"
+abstract: |
+  This is the abstract.
+
+  It consists of two paragraphs.
+output:
+  bookdown::html_document2:
+    toc: true
+    fig_caption: true
+    template: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Libraries
+```{r}
+library(tidyverse)
+library(readxl)
+library(lme4)
+library(styler)
+library(lintr)
+library(patchwork)
+library(ggtext)
+library(easystats)
+```
+
+# Data
+```{r}
+# data <- read.csv("data-raw/data.csv")
+```
+
+# Fonts
+```{r}
+# font_add_google("Roboto", "roboto")
+# showtext_auto()
+```
+
+
