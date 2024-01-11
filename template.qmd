@@ -11,10 +11,6 @@ author:
     city: Minneapolis
     state: MN
 date: last-modified
-abstract: |
-  This is the abstract.
-
-  It consists of two paragraphs.
 execute:
   eval: true
   echo: true
