@@ -1,15 +1,11 @@
 ---
 title: "Template Title"
 author:
-  name: Samuel J. Bullard
+- name: Samuel J. Bullard
+  id: sjb
   orcid: 0000-0003-4905-9305
   email: bulla049@umn.edu
-  affiliation:
-    name: University of Minnesota
-    department: Department of Educational Psychology
-    address: 56 E River Rd
-    city: Minneapolis
-    state: MN
+  affiliation: Department of Educational Psychology <br> @ University of Minnesota
 date: last-modified
 execute:
   eval: true
@@ -17,16 +13,20 @@ execute:
   messages: false
   error: false
   warning: false
+format:
+    bookup-html+dark
 css: styles.css
+bibliography: references.bib
+csl: ieee.csl
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Libraries
+## Libraries
 
-```{r}
+```{r pkgs}
 library(tidyverse)
 library(readxl)
 library(lme4)
@@ -37,10 +37,8 @@ library(ggtext)
 library(easystats)
 ```
 
-# Data
+## Data
 
-# Analysis
+## Analysis
 
-# Graphics
-
-
+## Graphics
